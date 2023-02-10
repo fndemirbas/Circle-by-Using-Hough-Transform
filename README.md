@@ -4,7 +4,7 @@ The Hough transform is a specific feature extraction technique used in digital i
 ## Run
 ''' python circle_detection.py img_name '''
 
-##Implementation
+## Implementation
 • Step 1: Threshold assignments and read the image
 imread() is in OpenCV is used to read an image from the filesystem.I had to normalize the
 accumulator array after I had it to get a standard threshold value between 0 and 1. This
