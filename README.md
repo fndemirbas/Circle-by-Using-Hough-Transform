@@ -1,9 +1,10 @@
-# Hough-Circle-Detection
+# Hough Circle Detection
 Implementation of Simple Hough Circle Detection Algorithm by using OpenCV in Python.\
 The Hough transform is a specific feature extraction technique used in digital image processing. The purpose of this technique is to find instances of objects of a particular shape class through a voting procedure. This voting procedure is performed using accumulation arrays. Hough transform can be applied to detect many random shapes in an image.
 ## Run
-''' python circle_detection.py img_name 
-###Implementation
+''' python circle_detection.py img_name '''
+
+##Implementation
 • Step 1: Threshold assignments and read the image
 imread() is in OpenCV is used to read an image from the filesystem.I had to normalize the
 accumulator array after I had it to get a standard threshold value between 0 and 1. This
@@ -44,13 +45,13 @@ deleted. The remaining values tell us the circle to be drawn.
 circle() is in OpenCV is used to draw circles onto an image at a particular pixel x,y with a
 radius r.
 
-###Functions
+##Functions
 hough_circles_detection()
 
-### Input
+## Input
 The script requires one positional argument and few optional parameters:
 * image_name - name of the image file for circle detection
-### Output
+## Output
 The output of the script would be two files:
 * circle_img.png - Image with the Circles drawn in Red color.
 * Detected Circle window
