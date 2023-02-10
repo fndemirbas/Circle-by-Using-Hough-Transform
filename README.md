@@ -45,7 +45,7 @@ deleted. The remaining values tell us the circle to be drawn.
 circle() is in OpenCV is used to draw circles onto an image at a particular pixel x,y with a
 radius r.
 
-##Functions
+## Functions
 hough_circles_detection()
 
 ## Input
